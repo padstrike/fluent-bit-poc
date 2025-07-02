@@ -1,0 +1,6 @@
+# applications/fluent-bit/values.yaml
+config:
+  outputs: |
+    [OUTPUT]
+        Name   stdout
+        Match  *
